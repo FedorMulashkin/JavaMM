@@ -9,7 +9,6 @@
         <module name="temp" />
         <module name="code" />
         <module name="library" />
-        <module name="release" />
         <module name="vm" />
         <module name="interpreter" />
         <module name="cmd" />

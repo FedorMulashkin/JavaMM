@@ -8,9 +8,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>vm</artifactId>
-    <packaging>jar</packaging>
 
-    <name>vm</name>
+    <name>Javamm virtual machine</name>
+    <description>Default VM for javamm programming language</description>
     <url>http://maven.apache.org</url>
 
     <properties>
@@ -19,10 +19,19 @@
 
     <dependencies>
         <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>3.8.1</version>
-            <scope>test</scope>
+            <groupId>ru.mulashkin</groupId>
+            <artifactId>compiler</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>ru.mulashkin</groupId>
+            <artifactId>interpreter</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>ru.mulashkin</groupId>
+            <artifactId>library</artifactId>
+            <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
 </project>

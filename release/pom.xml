@@ -8,9 +8,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>release</artifactId>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
 
-    <name>release</name>
+    <name>Release aggregator</name>
+    <description>Release aggregator for javamm project</description>
     <url>http://maven.apache.org</url>
 
     <properties>
@@ -19,10 +20,40 @@
 
     <dependencies>
         <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>3.8.1</version>
-            <scope>test</scope>
+            <groupId>ru.mulashkin</groupId>
+            <artifactId>code</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>ru.mulashkin</groupId>
+            <artifactId>compiler</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>ru.mulashkin</groupId>
+            <artifactId>interpreter</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>ru.mulashkin</groupId>
+            <artifactId>library</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>ru.mulashkin</groupId>
+            <artifactId>vm</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>ru.mulashkin</groupId>
+            <artifactId>cmd</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>ru.mulashkin</groupId>
+            <artifactId>ide</artifactId>
+            <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
+
 </project>

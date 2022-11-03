@@ -8,9 +8,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>code</artifactId>
-    <packaging>jar</packaging>
 
-    <name>code</name>
+    <name>Javamm code</name>
+    <description>Code base module for javamm programming language</description>
     <url>http://maven.apache.org</url>
 
     <properties>

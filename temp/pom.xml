@@ -10,9 +10,17 @@
     <artifactId>temp</artifactId>
     <packaging>jar</packaging>
 
-    <name>temp</name>
+    <name>Javamm project</name>
+    <description>Compiler, interpreter, standard library, virtual machine, console launcher
+        and simple IDE for javamm programming language
+    </description>
     <url>http://maven.apache.org</url>
-
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+        </license>
+    </licenses>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
@@ -25,4 +33,5 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+
 </project>
